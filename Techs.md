@@ -3,3 +3,4 @@
 - [ ] OpenCV
 - [ ] OpenGL
 - [ ] TensorFlow
+- [ ] Elliptic Curve Crypto
