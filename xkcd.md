@@ -10,6 +10,7 @@
 - 1373 [Screenshot](https://xkcd.com/1373/)
 - 1428 [Move Fast and Break Things](https://xkcd.com/1428/)
 - 1491 [Stories of the Past and Future](https://xkcd.com/1491/)
+- 1750 [Life Goals](https://xkcd.com/1750/)
 - 1760 [TV Problems](https://xkcd.com/1760/)
 - 1832 [Photo Library Management](https://xkcd.com/1832/)
 - 1835 [Random Obsessions](https://xkcd.com/1835/)
