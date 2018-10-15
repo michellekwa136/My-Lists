@@ -3,7 +3,7 @@
 This includes required courses.
 
 - 05391 Designing Human Centered Software
-- 05433 Programmming Usable Interfaces
+- 05433 Programming Usable Interfaces
 - 05438 The Role of Technology in Learning in the 21st Century
 - 10601 Intro to Machine Learning
 - 11411 Natural Language Processing
