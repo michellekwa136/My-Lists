@@ -6,3 +6,4 @@ A collection of miscellaneous lists for my own reference.
 - [Frameworks to Learn](Framework.md)
 - [Favorite xkcd Comics](xkcd.md)
 - [Hack Ideas Quick to Prototype](HackIdeas.md)
+- [Technologies to Learn](Techs.md)
