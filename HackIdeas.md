@@ -8,3 +8,6 @@
 - [ ] Query-based Python GUI Package
 - [ ] Click-able Fast Scheduling
 - [ ] Recognize Constellations
+- [ ] Make a Simple Shell
+- [ ] Make a Simple Compiler
+- [ ] Make a Simple OS
