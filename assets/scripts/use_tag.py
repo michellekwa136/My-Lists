@@ -5,7 +5,7 @@ __file = None
 __file_name = ''
 __lines = []
 
-__img_height = '30px'
+__img_height = '20px'
 __img_src = 'assets/tags/'
 
 __tag_pattern = '/[a-z| ]+//'
