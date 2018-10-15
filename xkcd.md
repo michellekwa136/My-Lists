@@ -1,0 +1,15 @@
+# Favorite xkcd Comics
+
+- 125 [Marketing Interview](https://xkcd.com/125/)
+- 327 [Exploits of a Mom](https://xkcd.com/327/)
+- 488 [Steal This Comic](https://xkcd.com/488/)
+- 552 [Correlation](https://xkcd.com/552/)
+- 826 [Guest Week](https://xkcd.com/826/)
+- 949 [File Transfer](https://xkcd.com/949/)
+- 1319 [Automation](https://xkcd.com/1319/)
+- 1373 [Screenshot](https://xkcd.com/1373/)
+- 1428 [Move Fast and Break Things](https://xkcd.com/1428/)
+- 1491 [Stories of the Past and Future](https://xkcd.com/1491/)
+- 1760 [TV Problems](https://xkcd.com/1760/)
+- 1832 [Photo Library Management](https://xkcd.com/1832/)
+- 1835 [Random Obsessions](https://xkcd.com/1835/)
