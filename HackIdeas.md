@@ -11,3 +11,4 @@
 - [ ] Make a Simple Shell
 - [ ] Make a Simple Compiler
 - [ ] Make a Simple OS
+- [ ] Extend Tagging System here
