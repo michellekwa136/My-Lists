@@ -1,3 +1,9 @@
+# use_tag.py
+# A script to substitute markdown content with defined tag images.
+# This script is no longer in use.
+# Created by Sam Yong in October 2018.
+# All rights reserved.
+
 import sys
 import re
 
