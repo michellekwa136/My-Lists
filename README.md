@@ -8,3 +8,4 @@ A collection of miscellaneous lists for my own reference.
 - [Hack Ideas Quick to Prototype](HackIdeas.md)
 - [Technologies to Learn](Techs.md)
 - [Courses to Consider](Courses.md)
+- [Photo/Video Ideas](PhotoIdeas.md)
