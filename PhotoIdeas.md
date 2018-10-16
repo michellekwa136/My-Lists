@@ -1,4 +1,4 @@
-Photography (Videography) Ideas to Realize
+# Photography (Videography) Ideas to Realize
 
 - [ ] Muted Color Theme Project
 - [ ] Long Exposure to Sky
