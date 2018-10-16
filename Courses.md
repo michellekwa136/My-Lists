@@ -9,7 +9,7 @@ This includes required courses.
 Minors included: security, software, hci, linguistics, philosophy
 
 - 05391 Designing Human Centered Software counts-to-major counts-to-minor-hci computer-science
-- 05392 Interaction Design Overview counts-minor-hci computer-science
+- 05392 Interaction Design Overview counts-to-minor-hci computer-science
 - 05433 Programming Usable Interfaces computer-science
 - 05438 The Role of Technology in Learning in the 21st Century counts-to-minor-hci computer-science
 - 10601 Intro to Machine Learning counts-to-major computer-science
