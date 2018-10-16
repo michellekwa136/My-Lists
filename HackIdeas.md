@@ -11,5 +11,3 @@
 - [ ] Make a Simple Shell
 - [ ] Make a Simple Compiler
 - [ ] Make a Simple OS
-- [ ] Colorful Tags in GitHub Readmes
-- [ ] Create Custom Tags (for above)
