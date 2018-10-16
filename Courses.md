@@ -6,7 +6,7 @@ This includes required courses.
 
 ---
 
-Minors included: security, software, hci, linguistics, philosophy
+Minors included: security, software, hci, linguistics, philosophy, math, math/logic
 
 - 05391 Designing Human Centered Software counts-to-major counts-to-minor-hci computer-science
 - 05392 Interaction Design Overview counts-to-minor-hci computer-science
@@ -20,6 +20,7 @@ Minors included: security, software, hci, linguistics, philosophy
 - 15300 Research and Innovation in Computer Science required computer-science
 - 15312 Foundations of Programming Languages counts-to-major computer-science
 - 15316 Software Foundations of Security and Privacy counts-to-major counts-to-minor-security computer-science
+- 15317 Constructive Logic counts-to-major counts-to-minor-math/logic math
 - 15330 Intro to Computer Security counts-to-minor-security computer-science
 - 15381 Artificial Intelligence counts-to-major computer-science
 - 15387 Computational Perception
@@ -43,9 +44,13 @@ Minors included: security, software, hci, linguistics, philosophy
 - 17480 API Design and Implementation
 - 18632 Intro to Hardware Security counts-to-minor-security computer-science
 - 18731 Network Security counts-to-minor-security computer-science
-- 21301 Combinatorics counts-to-major math
-- 21373 Algebraic Structures
-- 21484 Graph Theory counts-to-major math
+- 21301 Combinatorics counts-to-major counts-to-minor-math/logic math
+- 21329 Set Theory counts-to-minor-math/logic math
+- 21355 Principles of Real Analysis I counts-to-minor-math math
+- 21373 Algebraic Structures counts-to-minor-math math
+- 21441 Number Theory counts-to-minor-math/logic math
+- 21484 Graph Theory counts-to-major counts-to-minor-math/logic math
+- 21603 Model Theory I counts-to-minor-math/logic math
 - 27100 Engineering the Materials of the Future counts-to-major sciences
 - 33224 Stars, Galaxies and the Universe sciences
 - 60142 Digital Photography I
