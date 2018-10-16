@@ -2,7 +2,7 @@
 
 This includes required courses.
 
-(tags: required, counts-to-major, counts-to-minor, computer-science, math, sciences, arts, psych/phil/hist)
+(tags: required-uired, counts-to-counts-to-major, counts-to-counts-to-minor, computer-science, math, sciences, arts, psych/phil/hist)
 
 ---
 
