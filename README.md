@@ -10,3 +10,4 @@ A collection of miscellaneous lists for my own reference.
 - [Courses to Consider](Courses.md)
 - [Photo/Video Ideas](PhotoIdeas.md)
 - [57173 Word List](57173-Words.md)
+- [Personal Favorite Movies](FavMovies.md)
