@@ -1,0 +1,17 @@
+# Personal Favorite Movies of All Time
+
+- [Hachi: A Dog's Tale](https://www.imdb.com/title/tt1028532/)
+- [Inception](https://www.imdb.com/title/tt1375666/)
+- [The Pursuit of Happyness](https://www.imdb.com/title/tt0454921/)
+- [Catch Me If You Can](https://www.imdb.com/title/tt0264464/)
+- [Witness for the Prosecution](https://www.imdb.com/title/tt0051201/)
+- [Coco](https://www.imdb.com/title/tt2380307/)
+- [Good Will Hunting](https://www.imdb.com/title/tt0119217/)
+- [Up](https://www.imdb.com/title/tt1049413/)
+- [Shutter Island](https://www.imdb.com/title/tt1130884/)
+- [Into the Wild](https://www.imdb.com/title/tt0758758/)
+- [Monsters, Inc.](https://www.imdb.com/title/tt0198781/)
+- [The Best Years of Our Lives](https://www.imdb.com/title/tt0036868/)
+- [The Secret Life of Pets](https://www.imdb.com/title/tt2709768/)
+- [Ratatouille](https://www.imdb.com/title/tt0382932/)
+- [Monsters University](https://www.imdb.com/title/tt1453405/)
