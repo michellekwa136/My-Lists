@@ -2,7 +2,7 @@
 
 This includes required courses.
 
-- 05391 Designing Human Centered Software <img height="20px" src="assets/tags/tag_computer_science.png" />
+- 05391 Designing Human Centered Software
 - 05433 Programming Usable Interfaces
 - 05438 The Role of Technology in Learning in the 21st Century
 - 10601 Intro to Machine Learning
