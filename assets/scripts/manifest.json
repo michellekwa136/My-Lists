@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Colorize",
+  "version": "0.1",
+
+  "description": "",
+
+  "icons": {
+    "48": ""
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/SAMFYB/My-Lists/blob/master/Courses.md"],
+      "js": ["colorize.js"]
+    }
+  ]
+}
