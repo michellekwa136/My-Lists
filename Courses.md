@@ -6,7 +6,7 @@ This includes required courses.
 
 ---
 
-Minors included: security, software, hci, linguistics, philosophy, math, math/logic
+Minors included: security, software, hci, linguistics, philosophy, math, math/logic, animation/se, media/design
 
 - 05391 Designing Human Centered Software counts-to-major counts-to-minor-hci computer-science
 - 05392 Interaction Design Overview counts-to-minor-hci computer-science
@@ -32,9 +32,9 @@ Minors included: security, software, hci, linguistics, philosophy, math, math/lo
 - 15451 Algorithm Design and Analysis required computer-science
 - 15456 Computational Geometry counts-to-major computer-science
 - 15462 Computer Graphics counts-to-major counts-to-minor-hci computer-science arts
-- 15463 Computational Photography computer-science arts
+- 15463 Computational Photography counts-to-minor-animation computer-science arts
 - 15464 Technical Animation computer-science arts
-- 15465 Animation Art and Technology counts-to-minor-hci computer-science arts
+- 15465 Animation Art and Technology counts-to-minor-hci-animation computer-science arts
 - 15503 Intro to Cryptography counts-to-minor-security computer-science
 - 17313 Foundations of Software Engineering counts-to-major counts-to-minor-software computer-science
 - 17333 Privacy Policy, Law, and Technology counts-to-minor-security-software computer-science
@@ -53,7 +53,15 @@ Minors included: security, software, hci, linguistics, philosophy, math, math/lo
 - 21603 Model Theory I counts-to-minor-math/logic math
 - 27100 Engineering the Materials of the Future counts-to-major sciences
 - 33224 Stars, Galaxies and the Universe sciences
+- 53312 Guest Experience and Theme Park Design counts-to-minor-media arts
+- 60125 Intro to 3D Animation counts-to-minor-animation arts
 - 60142 Digital Photography I
+- 60223 Intro to Physical Computing counts-to-minor-animation-media computer-science arts
+- 60398 Social History of Animation counts-to-minor-animation arts
+- 60410 Visual Effects and Motion Graphics counts-to-minor-animation arts
+- 60412 Interactive Art and Computational Design counts-to-minor-media arts
+- 60422 Experimental Animation counts-to-minor-animation computer-science arts
+- 67240 Mobile Web Design and Development counts-to-minor-media arts
 - 79299 History of Science counts-to-major psych/phil/hist
 - 80180 Nature of Language counts-to-minor-ling psych/phil/hist
 - 80220 Philosophy of Science counts-to-minor-phil psych/phil/hist
