@@ -12,3 +12,4 @@
 - [ ] Make a Simple Compiler
 - [ ] Make a Simple OS
 - [ ] Extend Tagging System here
+- [ ] Maintain a Collection of Data Structures/Algorithms in (C, Python, Java)
