@@ -8,11 +8,21 @@ var style = {
   "required": "#c92a2a",
   "sciences": "#5c940d",
 }
+var abbr = {
+  "computer-science": "cs",
+  "arts": "arts",
+  "counts-to-major": "major",
+  "counts-to-minor": "minor",
+  "math": "math",
+  "psych/phil/hist": "pph",
+  "required": "req",
+  "sciences": "sci",
+}
 
 var article = document.getElementsByClassName ('markdown-body') [0]
 var text = article.innerHTML
 Object.keys (style).forEach (function (key, i) {
   text = text.replace (new RegExp (key, "g"),
-    "<span style='color: white; background-color: " + style [key] + "'>&nbsp;" + key + "&nbsp;</span>")
+    "<span style='color: white; background-color: " + style [key] + "'>&nbsp;" + abbr [key] + "&nbsp;</span>")
 })
 article.innerHTML = text
