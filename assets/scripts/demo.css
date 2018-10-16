@@ -1,0 +1,12 @@
+/**
+ * This is a supplementary stylesheet for demo.html to demo Colorize project.
+ */
+
+#demo {
+  background-color: #dee2e6;
+  font-size: 150%;
+}
+
+#demo-spaces {
+  background-color: #ffa8a8;
+}

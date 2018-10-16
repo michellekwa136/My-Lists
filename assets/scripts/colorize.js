@@ -1,3 +1,15 @@
+/**
+ * colorize.js
+ * A script in the Colorize project bundle.
+ * Created by Sam Yong in October 2018.
+ * All rights reserved.
+ *
+ * This script targets a markdown document displayed on GitHub,
+ * replaces all occurences of specified phrases (case sensitive),
+ * with specified replacement phrases and specified color backgrounds.
+ * The background colors come from Open Color.
+ */
+
 var style = {
   "computer-science": "#a61e4d",
   "arts": "#e67700",
