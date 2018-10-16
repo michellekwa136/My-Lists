@@ -2,6 +2,8 @@
 
 This includes required courses.
 
+(tags: required, counts-to-major, counts-to-minor, computer-science, math, sciences, arts, psych/phil/hist)
+
 - 05391 Designing Human Centered Software
 - 05433 Programming Usable Interfaces
 - 05438 The Role of Technology in Learning in the 21st Century

@@ -1,8 +1,3 @@
-var style = {
-  "and": "red",
-  "design": "yellow",
-  "computer": "purple",
-}
 var article = document.getElementsByClassName ('markdown-body') [0]
 var text = article.innerHTML
 Object.keys (style).forEach (function (key, i) {
@@ -10,3 +5,14 @@ Object.keys (style).forEach (function (key, i) {
     "<span style='color: " + style [key] + "'>" + key + "</span>")
 })
 article.innerHTML = text
+
+var style = {
+  "computer-science": "#a61e4d",
+  "arts": "#e67700",
+  "counts-to-major": "#087f5b",
+  "counts-to-minor": "#0b7285",
+  "math": "#5f3dc4",
+  "psych/phil/hist": "#862e9c",
+  "required": "#c92a2a",
+  "sciences": "#5c940d",
+}
