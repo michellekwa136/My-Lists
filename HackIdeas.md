@@ -1,4 +1,4 @@
-# Hack Ideas Quick to Prototype
+# Hack Ideas Quick to Prototype (& general CS project ideas)
 
 - [ ] An iOS App
 - [ ] Tag-able Folders (File System)
