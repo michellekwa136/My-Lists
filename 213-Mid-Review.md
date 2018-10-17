@@ -217,3 +217,70 @@ Read reversed string from Assembly
   - int to float: round
 
 ### Machine Programming: Basics
+
+- Architecture: parts of processor design needed for correct machine/assembly code
+  - Machine code: byte-level executable
+  - Assembly code: text representation of machine code
+
+```
+movq src, dest
+  1. immediate values e.g. $0x400
+  2. register e.g. %rax
+  3. 8 bytes of memory e.g. (%rax)
+```
+
+```
+Memory Addressing Modes
+- Normal (R) direct access register R specified location
+- Displacement D(R) R specified location with displacement D offset
+- General Form D(Rb, Ri, S) = [Rb] + S * [Ri] + D
+```
+
+```
+leaq src, dest - set dest to address denoted by src
+addq
+subq
+imulq
+salq (left arithmetic shift)
+sarq (right arithmetic shift)
+shrq (right logical shift)
+xorq
+andq
+orq
+incq dest
+decq dest
+negq dest
+notq dest
+```
+
+- Turn C into Object Code
+  - gcc -Og ...c ...c -o p
+    - Og = basic optimization
+    - p is result binary
+
+```
+text (C) -----> text (asm) -----> binary (o) -----> binary (executable)
+         compiler          assembler         linker
+```
+
+- Assembler
+  - Translate .s to .o
+  - Encode instructions in binary
+  - Nearly complete image of executable
+  - Missing linkage between diff files
+- Linker
+  - Resolves references between files
+  - Combines static runtime libraries
+  - Some libraries dynamically linked
+- Disassembler
+  - objdump -d ...
+  - Useful for examining object code
+  - Produce approximate of assembly code
+  - can run on both .o and executable
+
+```
+Using GDB
+- disassemble ...
+```
+
+### Machine Programming: Control
