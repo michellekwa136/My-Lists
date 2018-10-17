@@ -81,3 +81,62 @@ Two's Complement Representation of Signed
 - Truncation: simply drop top k bits (similar to mod operation)
 
 ### Bits, Bytes, Integers (Part II)
+
+- Unsigned addition: discard carry bit (modular arithmetic)
+  - Wraps around at most once
+- Signed: same bit-level behavior
+  - Discard carry bit
+  - Drop MSB, re-interpret
+  - Wraps around positive or negative at most once
+- Multiplication
+  - Ignore higher bits
+  - Modular arithmetic
+  - Shift is faster than multiply (compiler optimize)
+  - Unsigned right shift divide: logical shift
+  - Signed right shift divide: arithmetic shift
+
+```
+Negation = Complement & Increment
+  ~x + 1 == -x
+Counterexample: Tmin
+```
+
+```
+Proper way to use Unsigned as Loop Index
+  unsigned i
+  for (i = cnt - 2; i < cnt; i--)
+    ...
+```
+
+- Why use unsigned 
+  - When perform modular arithmetic (guaranteed)
+  - When use bits to represent sets
+  - Use in system (bit mask, etc.)
+- System provides private address space for each process
+- Word size: 64-bit = 8 bytes per word
+- Memory organization is word-oriented
+- Byte ordering conventions
+  - Big endian: LSB in highest address
+  - Little endian: LSB in lowest address
+
+```
+Representing a 4-byte value 0x01234567
+                0x100 0x101 0x102 0x103 -> higher addresses
+Big Endian:     01    23    45    67
+Little Endian:  67    45    23    01
+```
+
+- Strings in C
+  - Array of chars
+  - Each char encoded in ASCII
+  - Null-terminated: final character '00'
+  - Byte ordering no affect
+
+```
+Read reversed string from Assembly
+  add $0x12ab, %ebx
+1. asm value = 0x12ab
+2. pad to 32 bits = 0x000012ab
+3. split into bytes = 00 00 12 ab
+4. reverse = ab 12 00 00
+```
