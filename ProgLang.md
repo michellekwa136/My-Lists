@@ -15,3 +15,4 @@
 - [ ] Julia
 - [ ] Erlang
 - [ ] Crystal
+- [ ] F#
