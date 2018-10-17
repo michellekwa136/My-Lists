@@ -284,3 +284,54 @@ Using GDB
 ```
 
 ### Machine Programming: Control
+
+- Currently running program info
+  - Temporary data: %rax
+  - Location of runtime stack top: %rsp
+  - Location of code control point (program counter): %rip
+  - Status of recent ops: CF, ZF, SF, OF
+- Condition codes
+  - Implicitly set (side effect of ops)
+  - Single bit registers
+  - CF: carry flag (for unsigned) if carry/borrow from MSB
+  - ZF: zero flag if test == 0
+  - SF: sign flag (for signed) if test < 0
+  - OF: overflow flag (for signed) if 2's complement overflows
+  - Explicit setting by 'testq'
+    - Often use: testq %rax, %rax
+
+```
+cmpq b, a (like a - b)
+testq b, a (like a & b)
+```
+
+- Condition codes (cont.)
+  - Explicit reading by 'set' instructions
+    - Set lowest byte to 0 or 1
+    - Does NOT alter remaining 7 bytes
+
+```
+      Condition           Description         Jump
+      ---------           -----------         ----
+sete    ZF                Equal/Zero          je
+setne   ~ZF               Not Equal/Zero      jne
+sets    SF                Negative            js
+setns   ~SF               Non-negative        jns
+setg  ~(SF^OF)&~ZF        Greater             jg
+setge ~(SF^OF)            Greater or Equal    jge
+setl    SF^OF             Less                jl
+setle   (SF^OF)|ZF        Less or Equal       jle
+seta    ~CF&~ZF           Above (unsigned)    ja
+setb    CF                Below (unsigned)    jb
+        1                 Unconditional       jmp
+```
+
+- Why use conditional moves
+  - Branching disrupts instruction flow
+  - Conditional moves do not require control transfer
+- Why not to use conditional moves
+  - When computations are hard (both values computed)
+  - When unsafe/risky computation e.g. pointer dereference
+  - When computation has side effects
+
+### Machine Programming: Procedures
