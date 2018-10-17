@@ -140,3 +140,80 @@ Read reversed string from Assembly
 3. split into bytes = 00 00 12 ab
 4. reverse = ab 12 00 00
 ```
+
+### Floating Point
+
+- Fractional binary: bits to right of "binary point" represent fractional power of 2
+  - Represent some rational numbers
+- Observations
+  - Divide by 2 = shift right
+  - Multiply by 2 = shift left
+- IEEE Standard 754
+  - Nice standards for rounding, overflow, underflow
+  - Hard to make fast in hardware
+- (-1)^s M 2^E
+  - s: sign bit
+  - M: significand, normally a fraction between 1 to 2 (exclude 2)
+  - E: exponent
+  - Encoding = |s|exp|frac|
+    - s is sign bit
+    - exp encodes but not equal to E
+    - frac encodes but not equal to M
+- Precision
+  - Single: 32 bits = 1 s + 8 exp + 23 frac
+  - Double: 64 bits = 1 s + 11 exp + 52 frac
+- Three "kinds" of floating points: denormalized, normalized, special
+- Normalized
+  - when exp != 00..0 or 11..1
+  - E = exp - Bias
+    - Single precision: 127
+    - Double precision: 1023
+  - M = 1.frac
+- Denormalized
+  - when exp == 00..0
+  - E = 1 - Bias
+  - M = 0.frac
+  - If frac == 00..0: represent zeros (signed)
+  - If frac != 00..0: numbers closest to zeros
+- Special values
+  - when exp == 11..1
+  - If frac == 00..0: represent infinity (signed) (due to overflow)
+  - If frac != 00..0: Not-a-Number (NaN) (due to undefined arithmetic)
+
+```
+|---|---|----------|-------|||-------|----------|---|---|
+ NaN Inf   -Norm.    -Den. -+0 +Den.    +Norm.   Inf NaN
+```
+
+- Rounding: to nearest even (default)
+- BB-G-R-XXX
+  - G: guard bit = LSB of result
+  - R: round bit = 1st bit removed
+  - XXX: sticky bits
+- Round-up conditions
+  - R = 1, S = 1xx (>0.5) round to nearest
+  - G = 1, R = 1, S = 0 round to even
+- Fixings of multiplication
+  - If M >= 2: right shift M, increment E
+  - If E out of range: overflow!
+- Fixings of addition
+  - If M >= 2: right shift M, increment E (same above)
+  - If M < 1: left shift M k positions, decrement E by k
+  - If E out of range: overflow!
+- Properties of FP addition
+  - Closed under addition (but may give Inf or NaN)
+  - Commutative
+  - NOT associative
+  - 0 is identity
+- Properties of FP multiplication
+  - Closed under multiplication (but may give Inf or NaN)
+  - Commutative
+  - NOT associative
+  - 1 is identity
+  - NOT distribute over addition
+- Casting between int, float, double: change bit representation
+  - float/double to int: truncate frac
+  - int to double: exact conversion if int <= 53 bit
+  - int to float: round
+
+### Machine Programming: Basics
