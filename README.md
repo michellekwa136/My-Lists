@@ -12,6 +12,7 @@ A collection of miscellaneous lists for my own reference.
 - [57173 Word List](57173-Words.md)
 - [Personal Favorite Movies](FavMovies.md)
 - [Random Rambling of Mathematics](MathIdeas.md)
+- [15213 Midterm Review](213-Mid-Review.md)
 
 ---
 
