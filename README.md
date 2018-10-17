@@ -19,4 +19,4 @@ A collection of miscellaneous lists for my own reference.
 
 Unfortunately, GitHub Markdown has many limitations. Despite basic text decorations like bold and italic, there is no way to colorize the text or change typography and font size arbitrarily. But, I'm glad to have found out the markdown documents are rendered as an HTML element with all the text as is. This means we can apply arbitrary JavaScript to change the styling of the text! The easiest way to achieve this is through browser extensions (in my case, Firefox add-on). So...
 
-__BEFORE__ <img src='assets/imgs/org.png' width='40%' /> __AFTER__ <img src='assets/imgs/btf.png' width='40%' />
+__BEFORE:__ <img src='assets/imgs/org.png' width='40%' /> <span style='width: 15%'></span> __AFTER:__ <img src='assets/imgs/btf.png' width='40%' />
