@@ -426,3 +426,64 @@ popq dest
   - Register saving convention prevents data corruption (unless buffer overflow)
 
 ### Machine Programming: Data
+
+- Array allocation
+  - Contiguous region in memory
+  - Multidimensional: row-major ordering
+  - Multi-level array
+    - Must do two memory reads for access, first row array, then element
+- Structure
+  - Block of memory big enough to hold all fields
+  - Fields ordered according to declaration
+  - Compiler decides size and position of fields
+- Alignment principles
+  - Primitive data types requires B bytes
+    - Address must be multiple of B
+  - Memory access in chunks of 4 or 8 bytes
+    - Inefficient if data span cache lines
+    - Virtual memory trickier if data span two pages
+  - Compiler inserts gaps (paddings) in structure to ensure correct alignment of fields
+- Structure alignment
+  - Within structure: must satisfy each element's alignment
+  - Overall: structure must align at largest alignment requirement in structure
+  - Internal & external paddings
+  - Saving space: put large data types first
+- Floating points
+  - Arguments in %xmm0, %xmm1,...
+  - Return value in %xmm0
+  - All XMM registers are caller saved
+  - Different mov instructions
+  - Lots of different instructions
+  - Set condition codes ZF, PF, CF
+  - PF: parity flag
+
+### Machine Programming: Advanced Topics
+
+- Memory layout
+  - Shared library
+  - Stack (grow down, at most 8 MB)
+  - Heap (grow up)
+  - Data (globals, statics, string consts, etc.)
+  - Text: executable code, read-only
+- Buffer overflow
+  - Exceed memory size allocated
+  - #1 technical cause of security vulnerabilities
+  - Most common: unchecked length of string inputs (particularly stack smashing)
+- What to do about buffer overflow attacks
+  - Avoid overflow vulnerabilities
+    - Use library routines that limit string length
+  - System-level protection
+    - Randomized stack offset
+    - Mark stack non-executable
+  - Stack canaries
+    - Place special values on stack beyond buffer
+    - Check for value corruption before exiting
+- Return-oriented attacks
+  - Use existing code
+  - Does not overcome stack canaries
+  - Construct program from gadgets
+- Union allocation
+  - Allocate according to largest element
+  - Can only use one field at a time
+
+### Code Optimization
