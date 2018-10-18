@@ -505,3 +505,54 @@ popq dest
     - Fixes: introduce local vars, accumulate within loops
 
 ### The Memory Hierarchy
+
+- OMISSION: storage technologies and trends
+- Locality: programs tend to use data and instructions with address near or same those used recently
+  - Temporal locality: recently referenced items likely to be referenced again
+  - Spatial locality: items with near addresses tend to be referenced close together
+- Memory hierarchy
+  - L0: regs
+  - L1: cache (SRAM)
+  - L2: cache (SRAM)
+  - L3: cache (SRAM)
+  - Main memory L4 (DRAM)
+  - L5 local storage
+  - L6 remote storage
+- Cache: smaller, faster storage device acts as a staging area
+  - Data copied in block-sized transfer units
+  - Hit: data in cache
+  - Miss: requested block not in cache
+- 3 types of cache misses
+  - Cold (compulsory) miss: cache starts empty, first reference to the block
+  - Capacity miss: working set larger than cache
+  - Conflict miss: multiple blocks map to the same cache block
+
+### Cache Memories
+
+- Cache memory is small, fast SRAM managed by hardware
+  - Hold frequently accessed blocks
+  - CPU looks first into cache for data
+- Cache organization (S, E, B)
+  - S = 2^s number of sets
+  - E = 2^e lines per set
+  - B = 2^b bytes per cache block
+- Cache read
+  - Locate set
+  - Check if any line in set match tag
+  - Match tag + valid = hit!
+  - Locate data starting at offset
+- Direct mapped cache: E = 1 line per set
+- If tag no match: old line evicted and replaced
+- E-way set associative cache: E lines per set
+  - Replacement policy: which line to evict (most common LRU)
+- Cache write
+  - Write-back and write-allocate
+    - Write-back: defer write to memory until replacement, needs a dirty bit (set if data differs from memory)
+    - Write-allocate: if miss, load data in cache, update line in cache
+- OMISSION: cache performance metrics
+- Write cache-friendly code
+  - Repeat reference is good
+  - Stride-1 pattern is good
+- OMISSION: the memory mountain
+- OMISSION: re-arranging loops to improve spatial locality
+- OMISSION: use blocking to improve temporal locality
