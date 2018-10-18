@@ -335,3 +335,94 @@ setb    CF                Below (unsigned)    jb
   - When computation has side effects
 
 ### Machine Programming: Procedures
+
+- Mechanism
+  - Passing control
+    - To beginning of procedure code
+    - Back to return point
+  - Passing data
+    - Arguments
+    - Return value
+  - Memory
+    - Allocate during execution
+    - Deallocate upon return
+- Stack
+  - Array of bytes
+  - Stack pointer %rsp (stack top)
+  - Grows down (towards lower value addresses)
+
+```
+pushq src
+  - Fetch operand at src
+  - Decrement %rsp by 8
+  - Write fetched value at address in %rsp
+
+popq dest
+  - Read value at address in %rsp
+  - Increment %rsp by 8
+  - Store read value at dest
+  - Note: stack memory does not change (only value of %rsp)
+```
+
+- Procedure control flow
+  - Use stack to support call and return
+  - Procedure call: 'call label'
+    - Push return address on stack top
+    - Jump to label
+  - Return address: address of next instruction after call
+  - Procedure return: 'ret'
+    - Pop address from stack top
+    - Jump to popped address
+- Procedure data flow
+  - First 6 arguments: %rdi, %rsi, %rdx, %rcx, %r8, %r9
+  - More arguments on stack
+  - Return value: %rax
+- Stack-based languages
+  - Support recursion
+  - Multiple simultaneous instances of single procedure
+  - Need place store state of each instance
+  - Stack allocated in frames: state for single instance
+- Stack frames
+  - Contents: return info, local storage, temporary space (if necessary)
+  - (optional) Frame pointer: %rbp
+  - Stack pointer: %rsp
+  - Space allocated when enter procedure, deallocated when return
+
+```
+|               |
+|               |
+|               |
+|---------------|
+|     args 7+   |   caller
+|---------------|   frame
+|   ret addr    |
+|---------------|--------------------
+|   old %rbp    | <- %rbp (optional)
+|---------------|
+|   saved regs  |
+|       +       |
+|   local vars  |
+|---------------|
+|   args next   | (optional)
+ ---------------  <- %rsp
+```
+
+- Register saving conventions
+  - "Caller saved": caller saves temporary values in frame before call
+  - "Callee saved": callee saves temporary values in frame before use
+    - Callee restores after use, before return to caller
+
+```
+%rax - return value, caller saved, can modify
+%rdi to %r9 - arguments, caller saved, can modify
+%r10, %r11 - caller saved, can modify
+----------------------------------------
+%rbx, %r12, %r13, %r14 - callee saved, must restore
+%rbp - maybe frame pointer, callee saved, must restore
+%rsp - stack pointer, callee saved, must restore when return
+```
+
+- Recursion handled by normal calling convention
+  - Register saving convention prevents data corruption (unless buffer overflow)
+
+### Machine Programming: Data
