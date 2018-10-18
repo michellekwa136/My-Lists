@@ -487,3 +487,21 @@ popq dest
   - Can only use one field at a time
 
 ### Code Optimization
+
+- Code motion
+  - Reduce frequency of computation
+  - Move code out of loops
+  - Reuse sub-expressions
+- Optimization blockers
+  - Most analysis only within procedures
+  - Most analysis based only on static information
+  - When in doubt, compiler must be conservative
+  - Procedure calls
+    - May have side effects
+    - May not return same value
+    - Compiler treat them as black boxes
+  - Memory aliasing
+    - Updates may affect program behavior
+    - Fixes: introduce local vars, accumulate within loops
+
+### The Memory Hierarchy
