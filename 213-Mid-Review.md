@@ -13,15 +13,20 @@ Summary and Key Concepts from Lecture Slides
   - 1 byte: 00000000 to 11111111 in binary
   - 1 byte: 0 to 255 in decimal
   - 1 byte: 00 to FF in hex
-- Data representation in C (32 vs. 64)
-  - char = 1, 1
-  - short = 2, 2
-  - int = 4, 4
-  - long = 4, 8
-  - float = 4, 4
-  - double = 8, 8
-  - pointer = 4, 8
-  - size_t = \_, 8
+
+```
+Data Representation in C
+        Typical 32-bit      Typical 64-bit
+        --------------      --------------
+  char        1                   1
+  short       2                   2
+  int         4                   4
+  long        4                   8
+  float       4                   4
+  double      8                   8
+  void *      4                   8
+```
+
 - Encode "true" as 1 and "false" as 0 (boolean algebra)
   - And '&'
   - Or '|'
