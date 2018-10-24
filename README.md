@@ -13,6 +13,7 @@ A collection of miscellaneous lists for my own reference.
 - [Personal Favorite Movies](FavMovies.md)
 - [Random Rambling of Mathematics](MathIdeas.md)
 - [15213 Midterm Review](213-Mid-Review.md)
+- [EXCEL 151 Materials](tree/master/EXCEL)
 
 ---
 
