@@ -13,3 +13,9 @@
 - [ ] Make a Simple OS
 - [ ] Extend Tagging System here
 - [ ] Maintain a Collection of Data Structures/Algorithms in (C, Python, Java)
+- Work with Google Maps API
+- Work with Here.com API
+- Work with Instagram API
+- Work with GitHub API
+- Work with Stack Exchange API
+- Work with D3.js/Vega
