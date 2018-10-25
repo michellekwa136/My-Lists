@@ -4,3 +4,4 @@
 - Prove the formula for summation from 1 through n
 - Prove pi is between 3 and 4
 - Prove Cassini's identity
+- The Kakeya needle problem
