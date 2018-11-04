@@ -10,7 +10,7 @@
 - 488 [Steal This Comic](https://xkcd.com/488/)
 - 519 [11th Grade](https://xkcd.com/519/)
 - 552 [Correlation](https://xkcd.com/552/)
-- 555[Two Mirrors](https://xkcd.com/555/)
+- 555 [Two Mirrors](https://xkcd.com/555/)
 - 683 [Science Montage](https://xkcd.com/683/)
 - 826 [Guest Week](https://xkcd.com/826/)
 - 918 [Google+](https://xkcd.com/918/)
