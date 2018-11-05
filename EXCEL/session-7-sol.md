@@ -7,5 +7,5 @@ Following are solutions to only some of the problems on the handout. Some proble
 ## Gotta Count Em' All
 
 1. Choose 4 distinct groups of 4 people from 16 people
-  i. Step-by-step approach: $ \binom{16}{4} \binom{12}{4} \binom{8}{4} \binom{4}{4} $
-  ii. Permutate and divide approach: $ \frac{16!}{4!4!4!4!} $
+  1. Step-by-step approach: $ \binom{16}{4} \binom{12}{4} \binom{8}{4} \binom{4}{4} $
+  1. Permutate and divide approach: $ \frac{16!}{4!4!4!4!} $
