@@ -9,3 +9,4 @@
 - [ ] Brachistochrone
 - [ ] Hamming Code (and other techniques of error-correcting code)
 - [x] Proof of FLT with counting necklaces
+- [ ] The cyclic number 142857
