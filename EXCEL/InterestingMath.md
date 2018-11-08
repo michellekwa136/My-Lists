@@ -1,4 +1,6 @@
-# Interesting Math Concepts/Problems/Topics/Theories/Discoveries
+# Interesting Math
+
+Concepts/Problems/Topics/Theories/Discoveries
 
 - Golomb Sequence
 - Base 12
