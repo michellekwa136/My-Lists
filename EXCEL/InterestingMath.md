@@ -8,4 +8,4 @@
 - [ ] Lunar Arithmetic
 - [ ] Brachistochrone
 - [ ] Hamming Code (and other techniques of error-correcting code)
-- [ ] Proof of FLT with counting necklaces
+- [x] Proof of FLT with counting necklaces
