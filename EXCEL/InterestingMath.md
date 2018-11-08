@@ -13,3 +13,4 @@
 - [ ] Binary Cyclops number(s)
 - [ ] The Moving Sofa Problem
 - [ ] Euclid's straight edge and compass problem
+- [ ] The dollar game (some graph theory stuff)
