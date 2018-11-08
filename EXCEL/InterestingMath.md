@@ -14,3 +14,4 @@
 - [ ] The Moving Sofa Problem
 - [ ] Euclid's straight edge and compass problem
 - [ ] The dollar game (some graph theory stuff)
+- [ ] Every positive number is a sum of three palindromes
