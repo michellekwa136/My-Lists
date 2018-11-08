@@ -16,3 +16,4 @@
 - [ ] The dollar game (some graph theory stuff)
 - [ ] Every positive number is a sum of three palindromes
 - [ ] Sum of three cubes numbers
+- [ ] Circle inversion
