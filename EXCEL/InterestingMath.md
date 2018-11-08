@@ -12,3 +12,4 @@
 - [ ] The cyclic number 142857
 - [ ] Binary Cyclops number(s)
 - [ ] The Moving Sofa Problem
+- [ ] Euclid's straight edge and compass problem
