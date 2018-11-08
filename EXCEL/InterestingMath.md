@@ -7,3 +7,4 @@
 - Triangle of Power
 - Lunar Arithmetic
 - Brachistochrone
+- Hamming Code (and other techniques of error-correcting code)
