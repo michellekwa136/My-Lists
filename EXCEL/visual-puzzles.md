@@ -9,3 +9,4 @@
 - [ ] Prove the formula for the sum of consecutive odd numbers
 - [ ] Prove the square difference factorisation
 - [ ] A line that bisects the right angle of a right triangle also bisects a square erected on the hypotenuse.
+- [ ] Prove irrationality with triangular squares
