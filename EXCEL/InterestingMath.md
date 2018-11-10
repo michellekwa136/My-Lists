@@ -17,3 +17,4 @@
 - [ ] Every positive number is a sum of three palindromes
 - [ ] Sum of three cubes numbers
 - [ ] Circle inversion
+- [ ] Pan-digital approximation formula of e
