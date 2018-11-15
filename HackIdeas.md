@@ -1,4 +1,4 @@
-# Hack Ideas Quick to Prototype (& general CS project ideas)
+# Hack Ideas (& general CS project ideas)
 
 - [ ] An iOS App
 - [ ] Tag-able Folders (File System)
@@ -21,3 +21,4 @@
 - Work with D3.js/Vega
 - [ ] Realtime Easy Screenshare
 - [ ] Insert ASCII Art from Image into Source File
+- [ ] (game) navigating maze through sound guides
