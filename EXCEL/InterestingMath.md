@@ -18,3 +18,4 @@
 - [ ] Sum of three cubes numbers
 - [ ] Circle inversion
 - [ ] Pan-digital approximation formula of e
+- [ ] The Josephus problem
