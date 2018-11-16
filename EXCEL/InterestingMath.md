@@ -19,3 +19,4 @@
 - [ ] Circle inversion
 - [ ] Pan-digital approximation formula of e
 - [ ] The Josephus problem
+- [ ] The bridge crossing problem and geometric representation
