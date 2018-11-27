@@ -22,3 +22,4 @@
 - [ ] Realtime Easy Screenshare
 - [ ] Insert ASCII Art from Image into Source File
 - [ ] (game) navigating maze through sound guides
+- [ ] Moodboards and collection management (like https://electronjs.org/apps/collectie)
