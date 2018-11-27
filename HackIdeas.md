@@ -27,3 +27,7 @@
 - [ ] Collection support clipboard (like https://electronjs.org/apps/1clipboard)
 - [ ] A markdown editor, or general code editor, or general clean editor
 - [ ] Common image processing toolkit with web technology (i.e. Electron, but maybe not)
+- [ ] Note taking app with web technology (like [Opus](https://electronjs.org/apps/opus) and [Deer](https://electronjs.org/apps/deer))
+- [ ] Desktop timer app (like https://electronjs.org/apps/tiny-timer)
+- [ ] Collection support code snippets (like https://electronjs.org/apps/cacher)
+- [ ] YouTube video & music desktop app (like https://electronjs.org/apps/youtube-music-desktop-app)
