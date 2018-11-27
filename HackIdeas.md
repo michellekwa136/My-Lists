@@ -26,3 +26,4 @@
 - [ ] Issue and task management (like https://www.gitkraken.com/)
 - [ ] Collection support clipboard (like https://electronjs.org/apps/1clipboard)
 - [ ] A markdown editor, or general code editor, or general clean editor
+- [ ] Common image processing toolkit with web technology (i.e. Electron, but maybe not)
