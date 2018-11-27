@@ -25,3 +25,4 @@
 - [ ] Moodboards and collection management (like https://electronjs.org/apps/collectie)
 - [ ] Issue and task management (like https://www.gitkraken.com/)
 - [ ] Collection support clipboard (like https://electronjs.org/apps/1clipboard)
+- [ ] A markdown editor, or general code editor, or general clean editor
