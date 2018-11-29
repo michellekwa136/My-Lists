@@ -14,4 +14,4 @@ Following are solutions to problems 1, 4, 5, 7, 9, 10
 
 ### Problem 1
 
-![Image Broken](./assets/F18-review-induction-sol/1.1.png)
+![Image Broken](./assets/F18-review-induction-sol/1.1.jpg)
