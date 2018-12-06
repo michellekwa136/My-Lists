@@ -2,7 +2,7 @@
 
 ### Concepts, Problems, Topics, Theories, Discoveries
 
-- [ ] Golomb Sequence
+- [x] Golomb Sequence
 - [ ] Base 12
 - [ ] Triangle of Power
 - [ ] Lunar Arithmetic
@@ -20,3 +20,4 @@
 - [ ] Pan-digital approximation formula of e
 - [ ] The Josephus problem
 - [ ] The bridge crossing problem and geometric representation
+- [x] Ramsey theory
