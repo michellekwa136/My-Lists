@@ -31,3 +31,4 @@
 - [ ] Desktop timer app (like https://electronjs.org/apps/tiny-timer)
 - [ ] Collection support code snippets (like https://electronjs.org/apps/cacher)
 - [ ] YouTube video & music desktop app (like https://electronjs.org/apps/youtube-music-desktop-app)
+- [ ] Make a platform for doing amazing race for EXCELs
