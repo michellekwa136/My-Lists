@@ -22,3 +22,4 @@
 - [ ] The bridge crossing problem and geometric representation
 - [x] Ramsey theory
 - [ ] Tusi couple
+- [ ] de Bruijn Sequence
