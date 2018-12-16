@@ -1,5 +1,7 @@
 ## Principles of Software Construction - Final Review Part I
 
+Lectures from begin of semester to midterm 1, in chronological order.
+
 ### Introduction to Java
 
 - "Hello World" program
