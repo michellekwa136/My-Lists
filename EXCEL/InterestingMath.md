@@ -37,3 +37,4 @@
 - [ ] Prove the square difference factorisation
 - [ ] A line that bisects the right angle of a right triangle also bisects a square erected on the hypotenuse.
 - [ ] Prove irrationality with triangular squares
+- [ ] Gallons from Buckets riddle thru 60-degree billiard boards
