@@ -24,6 +24,8 @@
 - [ ] Tusi couple
 - [ ] de Bruijn Sequence
 - [ ] Graceful Tree Problem
+- [ ] The trapped knight problem
+- [ ] Single-digit representation of natural numbers
 
 # Mathematical Puzzles through Visualization
 
