@@ -26,6 +26,7 @@
 - [ ] Graceful Tree Problem
 - [ ] The trapped knight problem
 - [ ] Single-digit representation of natural numbers
+- [ ] Superpermutation
 
 # Mathematical Puzzles through Visualization
 
