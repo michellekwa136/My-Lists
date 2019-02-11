@@ -27,6 +27,7 @@
 - [ ] The trapped knight problem
 - [ ] Single-digit representation of natural numbers
 - [ ] Superpermutation
+- [ ] Card flipping game
 
 # Mathematical Puzzles through Visualization
 
