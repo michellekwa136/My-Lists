@@ -1,8 +1,8 @@
 # Frameworks to Learn
 
 - [ ] Angular JS
-- [ ] Ruby on Rails
+- [x] Ruby on Rails
 - [ ] Django
 - [ ] Meteor JS
 - [ ] Express JS
-- [ ] Electron JS
+- [x] Electron JS
