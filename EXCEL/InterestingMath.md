@@ -28,6 +28,7 @@
 - [ ] Single-digit representation of natural numbers
 - [ ] Superpermutation
 - [ ] Card flipping game
+- [ ] Free the clones
 
 # Mathematical Puzzles through Visualization
 
