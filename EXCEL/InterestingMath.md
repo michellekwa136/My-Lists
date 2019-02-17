@@ -29,6 +29,7 @@
 - [ ] Superpermutation
 - [ ] Card flipping game
 - [ ] Free the clones
+- [ ] Futurama theorem
 
 # Mathematical Puzzles through Visualization
 
