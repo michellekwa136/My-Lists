@@ -30,6 +30,8 @@
 - [ ] Card flipping game
 - [ ] Free the clones
 - [ ] Futurama theorem
+- [ ] Parity of permutations
+- [ ] Parabola multiplication and primes
 
 # Mathematical Puzzles through Visualization
 
