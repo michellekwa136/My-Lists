@@ -13,7 +13,7 @@
 - [ ] Binary Cyclops number(s)
 - [ ] The Moving Sofa Problem
 - [ ] Euclid's straight edge and compass problem
-- [ ] The dollar game (some graph theory stuff)
+- [x] The dollar game (some graph theory stuff)
 - [ ] Every positive number is a sum of three palindromes
 - [ ] Sum of three cubes numbers
 - [ ] Circle inversion
@@ -27,7 +27,7 @@
 - [ ] The trapped knight problem
 - [ ] Single-digit representation of natural numbers
 - [ ] Superpermutation
-- [ ] Card flipping game
+- [x] Card flipping game
 - [ ] Free the clones
 - [ ] Futurama theorem
 - [ ] Parity of permutations
@@ -36,12 +36,12 @@
 # Mathematical Puzzles through Visualization
 
 - [ ] Wrap a string around nails on the wall to hang a picture exactly
-- [ ] Prove the formula for summation from 1 through n
+- [x] Prove the formula for summation from 1 through n
 - [ ] Prove pi is between 3 and 4
-- [ ] Prove Cassini's identity
+- [x] Prove Cassini's identity
 - [ ] The Kakeya needle problem
 - [ ] Prove the square of the sum of consecutive naturals equals to the sum of their cubes
-- [ ] Prove the formula for the sum of consecutive odd numbers
+- [x] Prove the formula for the sum of consecutive odd numbers
 - [ ] Prove the square difference factorisation
 - [ ] A line that bisects the right angle of a right triangle also bisects a square erected on the hypotenuse.
 - [ ] Prove irrationality with triangular squares
