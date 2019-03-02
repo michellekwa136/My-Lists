@@ -33,3 +33,4 @@
 - [ ] YouTube video & music desktop app (like https://electronjs.org/apps/youtube-music-desktop-app)
 - [ ] Make a platform for doing amazing race for EXCELs
 - [ ] Make a multi-tasking platform - integrate everything into one framework application
+- [ ] GPS
