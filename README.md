@@ -15,6 +15,7 @@ A collection of miscellaneous lists for my own reference.
 - [15213 Midterm Review](213-Mid-Review.md)
 - [EXCEL 151 Materials](https://github.com/SAMFYB/My-Lists/tree/master/EXCEL)
 - [Color Palettes Collection](Palettes.md)
+- [Giant List of Mathematical Ideas](glist-math.md)
 
 ---
 
