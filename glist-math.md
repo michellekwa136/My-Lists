@@ -113,3 +113,29 @@ Following are rather a few lists of overlaping ideas in the mathematical univers
   - Control theory
   - Theoretical physics
   - Other science applications
+
+## From YouTube Mathologer
+
+- The Futurama theorem
+- Water pouring problem and generalization
+- Rubik's cubes
+- Klein bottle
+- The river crossing puzzle
+- Mobius strip
+- Parabola multiplication, primes
+- The parity of permutations
+- The Kakeya needle problem
+- Times tables
+- Mandelbrot set, Julia sets
+- Banach-Tarski
+- Ramanujan identity
+- Infinite fractions
+- Fibonacci numbers
+- Ramanujan's infinite roots
+- Axiom of choice
+- Cantor's infinities
+- Riemann Zeta function
+- Visualize irrationality
+- Fix the wobbly table
+- The nothing grinder
+- Reuleaux triangle
