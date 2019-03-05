@@ -1,0 +1,44 @@
+# Giant List of Mathematical Ideas
+
+## From Concepts and Beyond
+
+- Mathematical reasoning, proofs and proof techniques
+- Induction
+  - Principle of mathematical induction
+  - Well-ordering principle
+  - Peano axioms
+  - Axiomatization of natural numbers
+  - Structural induction
+- Logic
+  - Logical reasoning
+  - Propositional logic, predicate logic, first-order logic, second-order logic, higher-order logic
+- Sets
+  - ZFC
+  - Foundation of mathematics
+- Functions
+  - Relations, orders
+  - Sets
+  - Graphs
+  - Computation
+- Number theory
+  - Division
+  - Primes
+  - Modular arithmetic
+  - Abstract algebra
+  - Boolean algebra
+  - Ring theory
+- Counting
+  - Counting principles
+  - Finite counting
+  - Finte and infinite sets
+  - Probability, discrete
+  - Graph
+  - Cardinal and ordinal numbers
+  - Infinities
+- Real analysis
+  - Inequalities
+  - Sequences and convergence
+  - Infinite series
+  - Bounded and unbounded sets
+  - Iterative functions
+  - Complex analysis
