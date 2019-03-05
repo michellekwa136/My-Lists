@@ -13,6 +13,8 @@
 - Logic
   - Logical reasoning
   - Propositional logic, predicate logic, first-order logic, second-order logic, higher-order logic
+    - Logic foundation of mathematics
+    - Recursion theory
 - Sets
   - ZFC
   - Foundation of mathematics
