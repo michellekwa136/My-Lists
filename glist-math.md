@@ -9,12 +9,15 @@
   - Peano axioms
   - Axiomatization of natural numbers
   - Structural induction
+  - Number systems
 - Logic
   - Logical reasoning
   - Propositional logic, predicate logic, first-order logic, second-order logic, higher-order logic
 - Sets
   - ZFC
   - Foundation of mathematics
+  - Second-order logic, quantifiers
+  - Definitions
 - Functions
   - Relations, orders
   - Sets
@@ -22,10 +25,14 @@
   - Computation
 - Number theory
   - Division
+    - Algorithms
   - Primes
+    - Cryptography
   - Modular arithmetic
   - Abstract algebra
+    - Algebraic structures
   - Boolean algebra
+    - Computation, complexity
   - Ring theory
 - Counting
   - Counting principles
@@ -33,12 +40,20 @@
   - Finte and infinite sets
   - Probability, discrete
   - Graph
+    - Planar graphs
+    - Paths
+    - High-dimensional graphs
   - Cardinal and ordinal numbers
-  - Infinities
+    - Infinities
+  - Infinite task
+    - Paradoxes
 - Real analysis
   - Inequalities
   - Sequences and convergence
   - Infinite series
+    - Series summation
   - Bounded and unbounded sets
   - Iterative functions
+    - Fractals
   - Complex analysis
+    - Analytic continuation
