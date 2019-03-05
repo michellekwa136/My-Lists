@@ -1,5 +1,7 @@
 # Giant List of Mathematical Ideas
 
+Following are rather a few lists of overlaping ideas in the mathematical universe. At some point in the future, there will be an attempt to unify the lists in some sensible manner for some reasonable purpose.
+
 ## From Concepts and Beyond
 
 - Mathematical reasoning, proofs and proof techniques
@@ -59,3 +61,55 @@
     - Fractals
   - Complex analysis
     - Analytic continuation
+
+## From Map of Mathematics
+
+- The origin of mathematics
+  - History of mathematics
+  - Mathematicians
+  - Number systems
+- Number systems
+  - Natural numbers, integers, rational numbers, irrational numbers, algebraic and transcendental numbers, real numbers, complex numbers
+  - Prime numbers
+  - Infinities
+  - Cardinal numbers, ordinal numbers
+- Structures
+  - Algebra
+  - Linear algebra
+  - Graph theory
+  - Combinatorics
+  - Group theory
+  - Order theory
+  - Number theory
+- Mathematical foundations
+  - Logic
+  - Set theory
+  - Axiomatic systems
+  - Category theory
+  - Computation, computability theory, complexity theory
+- Spaces
+  - Geometry
+  - Trigonometry
+  - Fractals
+  - Topology
+  - Measure theory
+- Changes (analysis)
+  - Calculus
+  - Vectors
+  - Complex analysis
+  - Dynamic systems
+  - Chaos theory
+- Applied mathematics
+  - Computer science
+    - Cryptography
+    - Machine learning
+  - Statistics
+  - Probability
+  - Optimization
+  - Finance
+  - Economics
+  - Game theory
+  - Numerical analysis
+  - Control theory
+  - Theoretical physics
+  - Other science applications
