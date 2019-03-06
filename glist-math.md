@@ -149,8 +149,10 @@ Following are rather a few lists of overlaping ideas in the mathematical univers
 - Chaos theory, the chaos game, iterative function generating fractals, computer generated graphics
 - Apery's constant, Riemann Zeta function, coprime combinations
 - Fair partitions
-- Collatz conjecture
+- Collatz conjecture, coloring tree
 - Mersenne primes and perfect numbers
 - Superpermutations
 - Prime gaps, twin prime conjecture
 - OEIS sequences, gap
+- Ulam spiral and primes, Sacks spiral
+- Ramanujan
