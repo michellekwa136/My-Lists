@@ -150,3 +150,5 @@ Following are rather a few lists of overlaping ideas in the mathematical univers
 - Apery's constant, Riemann Zeta function, coprime combinations
 - Fair partitions
 - Collatz conjecture
+- Mersenne primes and perfect numbers
+- Superpermutations
