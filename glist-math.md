@@ -152,3 +152,5 @@ Following are rather a few lists of overlaping ideas in the mathematical univers
 - Collatz conjecture
 - Mersenne primes and perfect numbers
 - Superpermutations
+- Prime gaps, twin prime conjecture
+- OEIS sequences, gap
