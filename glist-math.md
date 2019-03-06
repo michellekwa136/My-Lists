@@ -139,3 +139,13 @@ Following are rather a few lists of overlaping ideas in the mathematical univers
 - Fix the wobbly table
 - The nothing grinder
 - Reuleaux triangle
+
+## From YouTube Numberphile
+
+- All the numbers, whole numbers, rational numbers, constructable numbers, algebraic numbers, computable numbers, normal numbers
+- Human limitation of constructing randomness
+- Cheryl's birthday problem (and similar logic problems)
+- The orchard problems (lattice problems)
+- Chaos theory, the chaos game, iterative function generating fractals, computer generated graphics
+- Apery's constant, Riemann Zeta function, coprime combinations
+- Fair partitions
