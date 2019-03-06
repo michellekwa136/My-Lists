@@ -149,3 +149,4 @@ Following are rather a few lists of overlaping ideas in the mathematical univers
 - Chaos theory, the chaos game, iterative function generating fractals, computer generated graphics
 - Apery's constant, Riemann Zeta function, coprime combinations
 - Fair partitions
+- Collatz conjecture
