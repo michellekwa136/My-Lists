@@ -26,7 +26,7 @@
 - [ ] Graceful Tree Problem
 - [ ] The trapped knight problem
 - [ ] Single-digit representation of natural numbers
-- [ ] Superpermutation
+- [x] Superpermutation
 - [x] Card flipping game
 - [ ] Free the clones
 - [ ] Futurama theorem
@@ -45,4 +45,4 @@
 - [ ] Prove the square difference factorisation
 - [ ] A line that bisects the right angle of a right triangle also bisects a square erected on the hypotenuse.
 - [ ] Prove irrationality with triangular squares
-- [ ] Gallons from Buckets riddle thru 60-degree billiard boards
+- [x] Gallons from Buckets riddle thru 60-degree billiard boards
