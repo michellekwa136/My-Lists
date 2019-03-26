@@ -6,7 +6,7 @@
 - [ ] Base 12
 - [ ] Triangle of Power
 - [ ] Lunar Arithmetic
-- [ ] Brachistochrone
+- [x] Brachistochrone
 - [ ] Hamming Code (and other techniques of error-correcting code)
 - [ ] Proof of FLT with counting necklaces
 - [ ] The cyclic number 142857
@@ -32,6 +32,7 @@
 - [ ] Futurama theorem
 - [ ] Parity of permutations
 - [ ] Parabola multiplication and primes
+- [ ] Thue-Morse sequence
 
 # Mathematical Puzzles through Visualization
 
