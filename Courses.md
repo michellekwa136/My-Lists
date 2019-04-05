@@ -48,6 +48,7 @@ Minors included: security, software, hci, linguistics, philosophy, math, math/lo
 - 21484 Graph Theory counts-to-major counts-to-minor-math/logic math
 - 21603 Model Theory I counts-to-minor-math/logic math
 - 27100 Engineering the Materials of the Future counts-to-major sciences
+- 33104 Experimental Physics counts-to-major sciences
 - 33224 Stars, Galaxies and the Universe sciences
 - 53312 Guest Experience and Theme Park Design counts-to-minor-media arts
 - 60125 Intro to 3D Animation counts-to-minor-animation arts
