@@ -12,11 +12,9 @@ Minors included: security, software, hci, linguistics, philosophy, math, math/lo
 - 05392 Interaction Design Overview counts-to-minor-hci computer-science
 - 05433 Programming Usable Interfaces computer-science
 - 05438 The Role of Technology in Learning in the 21st Century counts-to-minor-hci computer-science
-- 10601 Intro to Machine Learning counts-to-major computer-science
 - 11411 Natural Language Processing counts-to-major counts-to-minor-hci computer-science
 - 14814 Wireless Network Security counts-to-minor-security computer-science
 - 14819 Intro to Software Reverse-Engineering counts-to-minor-security computer-science
-- 15210 Parallel and Sequential Data Structures and Algorithms required computer-science
 - 15300 Research and Innovation in Computer Science required computer-science
 - 15312 Foundations of Programming Languages counts-to-major computer-science
 - 15316 Software Foundations of Security and Privacy counts-to-major counts-to-minor-security computer-science
@@ -38,7 +36,6 @@ Minors included: security, software, hci, linguistics, philosophy, math, math/lo
 - 15503 Intro to Cryptography counts-to-minor-security computer-science
 - 17313 Foundations of Software Engineering counts-to-major counts-to-minor-software computer-science
 - 17333 Privacy Policy, Law, and Technology counts-to-minor-security-software computer-science
-- 17334 Usable Privacy and Security counts-to-minor-security-software computer-science
 - 17356 Software Engineering for Startups counts-to-minor-software computer-science
 - 17413 Software Engineering Practicum counts-to-minor-software computer-science
 - 17480 API Design and Implementation
@@ -46,7 +43,6 @@ Minors included: security, software, hci, linguistics, philosophy, math, math/lo
 - 18731 Network Security counts-to-minor-security computer-science
 - 21301 Combinatorics counts-to-major counts-to-minor-math/logic math
 - 21329 Set Theory counts-to-minor-math/logic math
-- 21355 Principles of Real Analysis I counts-to-minor-math math
 - 21373 Algebraic Structures counts-to-minor-math math
 - 21441 Number Theory counts-to-minor-math/logic math
 - 21484 Graph Theory counts-to-major counts-to-minor-math/logic math
@@ -55,7 +51,6 @@ Minors included: security, software, hci, linguistics, philosophy, math, math/lo
 - 33224 Stars, Galaxies and the Universe sciences
 - 53312 Guest Experience and Theme Park Design counts-to-minor-media arts
 - 60125 Intro to 3D Animation counts-to-minor-animation arts
-- 60142 Digital Photography I
 - 60223 Intro to Physical Computing counts-to-minor-animation-media computer-science arts
 - 60398 Social History of Animation counts-to-minor-animation arts
 - 60410 Visual Effects and Motion Graphics counts-to-minor-animation arts
