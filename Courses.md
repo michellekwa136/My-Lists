@@ -13,20 +13,23 @@ Minors included: security, software, hci, linguistics, philosophy, math, math/lo
 - 05433 Programming Usable Interfaces computer-science
 - 05438 The Role of Technology in Learning in the 21st Century counts-to-minor-hci computer-science
 - 11411 Natural Language Processing counts-to-major counts-to-minor-hci computer-science
+- 14809 Introduction to Cyber Intelligence counts-to-minor-security computer-science
 - 14814 Wireless Network Security counts-to-minor-security computer-science
 - 14819 Intro to Software Reverse-Engineering counts-to-minor-security computer-science
 - 15300 Research and Innovation in Computer Science required computer-science
 - 15312 Foundations of Programming Languages counts-to-major computer-science
 - 15316 Software Foundations of Security and Privacy counts-to-major counts-to-minor-security computer-science
 - 15317 Constructive Logic counts-to-major counts-to-minor-math/logic math
+- 15319 Cloud Computing computer-science
 - 15330 Intro to Computer Security counts-to-minor-security computer-science
 - 15381 Artificial Intelligence counts-to-major computer-science
 - 15387 Computational Perception
 - 15410 Operating System Design and Implementation counts-to-major counts-to-minor-software computer-science
 - 15411 Compiler Design counts-to-major computer-science
 - 15414 Bug Catching: Automated Program Verification counts-to-major counts-to-minor-software computer-science
-- 15424 Foundations of Cyber-Physical Systems counts-to-major computer-science
+- 15424 Logical Foundations of Cyber-Physical Systems counts-to-major computer-science
 - 15441 Computer Networks counts-to-major counts-to-minor-software computer-science
+- 15445 Database Systems computer-science
 - 15451 Algorithm Design and Analysis required computer-science
 - 15456 Computational Geometry counts-to-major computer-science
 - 15462 Computer Graphics counts-to-major counts-to-minor-hci computer-science arts
@@ -34,11 +37,13 @@ Minors included: security, software, hci, linguistics, philosophy, math, math/lo
 - 15464 Technical Animation computer-science arts
 - 15465 Animation Art and Technology counts-to-minor-hci-animation computer-science arts
 - 15503 Intro to Cryptography counts-to-minor-security computer-science
+- 15857 Performance Modeling computer-science
 - 17313 Foundations of Software Engineering counts-to-major counts-to-minor-software computer-science
 - 17333 Privacy Policy, Law, and Technology counts-to-minor-security-software computer-science
 - 17356 Software Engineering for Startups counts-to-minor-software computer-science
 - 17413 Software Engineering Practicum counts-to-minor-software computer-science
 - 17480 API Design and Implementation
+- 17731 Foundations of Privacy counts-to-minor-security computer-science
 - 18632 Intro to Hardware Security counts-to-minor-security computer-science
 - 18731 Network Security counts-to-minor-security computer-science
 - 21301 Combinatorics counts-to-major counts-to-minor-math/logic math
