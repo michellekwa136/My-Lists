@@ -33,6 +33,7 @@
 - [ ] Parity of permutations
 - [ ] Parabola multiplication and primes
 - [ ] Thue-Morse sequence
+- [ ] Farey sum of fractions
 
 # Mathematical Puzzles through Visualization
 
